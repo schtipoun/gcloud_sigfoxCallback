@@ -11,3 +11,18 @@ Basically this function handles the HTTP request, seperate the actual payload fr
 
 In the function getTopic, the function checks if the topic exists and if not creates it automatically.
 
+Also, you will need to update your project name and private key name. You will need to add a private key in your folder to be able to publish on your PubSub 
+
+'''
+const projectId = YOUR_PROJECT_ID; //TO BE MODIFIED
+const keyFilename = YOUR_PRIVATE_KEY; //TO BE MODIFIED
+'''
+
+Finally, in this function we are using 2 npm dependencies that you will have to setup in your environment:
+npm install --save @google-cloud/pubsub
+npm install --save safe-buffer
+
+
+IMPROVEMENTS:
++ Security should be improved by defining a login and secure key in the header of the HTTP request in the sigfox callback and checking their values in the function.
+
