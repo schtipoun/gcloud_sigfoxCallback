@@ -15,8 +15,8 @@ const PubSub = require('@google-cloud/pubsub');
 const Buffer = require('safe-buffer').Buffer;
 
 // ENV variables for PubSub
-const projectId = 'iot-test-212508';
-const keyFilename = './iot-test-212508-b0b52a0361c5.json';
+const projectId = YOUR_PROJECT_ID; //TO BE MODIFIED
+const keyFilename = YOUR_PRIVATE_KEY; //TO BE MODIFIED
 
 // START PubSub
 const pubsub = new PubSub({
