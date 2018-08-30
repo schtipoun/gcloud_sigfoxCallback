@@ -22,8 +22,10 @@ const keyFilename = YOUR_PRIVATE_KEY; //TO BE MODIFIED
 ```
 
 Finally, in this function we are using 2 npm dependencies that you will have to setup in your environment:
+```
 npm install --save @google-cloud/pubsub
 npm install --save safe-buffer
+```
 
 Finally, you will have to deploy:
 ```
