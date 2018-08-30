@@ -34,7 +34,7 @@ Now your http endpoint is:
 '''
 https://<YOUR ZONE>-<YOUR PROJECT>.cloudfunctions.net/<YOUR FUNCTION>
 '''
-Congrats, you have a message broker up and running scalable to infinity.
+Congrats, you have a message broker up and running, scalable to infinity.
 
 
 ## Explaining the code
