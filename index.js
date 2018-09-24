@@ -42,7 +42,7 @@ exports.sigfoxcallback = (req, res) => {
     queueMessage(payload);
 
     // Answers to the sigfox callback
-    res.status(200).end('Message processed');
+    res.status(200).send('Message processed');
   }
 };
 
